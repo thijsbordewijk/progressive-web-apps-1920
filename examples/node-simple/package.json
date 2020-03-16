@@ -4,15 +4,16 @@
   "description": "Simple Node API example",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
-	"dev": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stef van Dijk",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
+    "node": "^13.10.1",
     "request": "^2.88.0"
   }
 }
